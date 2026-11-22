@@ -404,7 +404,7 @@
       "watch_out": "The 10k benchmark uses one Pro seat. Multi-seat teams can pool credits, and phone reveals use more credits.",
       "official_pricing_url": "https://prospeo.io/pricing",
       "cron_checkable": 0,
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-22",
       "plans": [
         {
           "plan_name": "Free",
@@ -412,7 +412,7 @@
           "annual_monthly_usd": 0,
           "annual_invoice_usd": null,
           "billing_unit": "user",
-          "included_credits_label": "75 emails / mo",
+          "included_credits_label": "100 credits / mo",
           "key_limit": "Light evaluation only"
         },
         {
