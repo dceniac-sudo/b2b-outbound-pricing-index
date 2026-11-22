@@ -1,0 +1,625 @@
+{
+  "source": "https://gtmfacts.com",
+  "count": 13,
+  "verifiedPolicy": "Human-verified primary sources only (confirmed = 1).",
+  "tools": [
+    {
+      "slug": "apollo",
+      "name": "Apollo.io",
+      "category": "data",
+      "role_label": "B2B database & sequencer",
+      "billing_model": "Per seat + shared credits, with expiry at billing-cycle reset",
+      "published_entry_label": "$49/seat/mo",
+      "audited_10k_label": "$237+/mo",
+      "watch_out": "Mobile reveals use 8 credits. Add-on prices depend on the account, and some teams budget for external verification.",
+      "official_pricing_url": "https://www.apollo.io/pricing",
+      "cron_checkable": 0,
+      "verified_at": "2026-11-19",
+      "plans": [
+        {
+          "plan_name": "Free",
+          "monthly_usd": 0,
+          "annual_monthly_usd": 0,
+          "annual_invoice_usd": null,
+          "billing_unit": "seat",
+          "included_credits_label": "900 credits / year (~75/mo)",
+          "key_limit": "Evaluation only; limited exports"
+        },
+        {
+          "plan_name": "Basic",
+          "monthly_usd": 65,
+          "annual_monthly_usd": 49,
+          "annual_invoice_usd": null,
+          "billing_unit": "seat",
+          "included_credits_label": "30,000 credits / year (~2,500/mo)",
+          "key_limit": "No uncapped sequences or advanced automation"
+        },
+        {
+          "plan_name": "Professional",
+          "monthly_usd": 99,
+          "annual_monthly_usd": 79,
+          "annual_invoice_usd": null,
+          "billing_unit": "seat",
+          "included_credits_label": "48,000 credits / year (~4,000/mo)",
+          "key_limit": "8 credits/phone; credits reset each billing cycle"
+        },
+        {
+          "plan_name": "Organization",
+          "monthly_usd": null,
+          "annual_monthly_usd": 119,
+          "annual_invoice_usd": null,
+          "billing_unit": "seat (3-seat min)",
+          "included_credits_label": "72,000 credits / year (~6,000/mo)",
+          "key_limit": "Annual billing only; $357/mo minimum"
+        }
+      ]
+    },
+    {
+      "slug": "clay",
+      "name": "Clay",
+      "category": "data",
+      "role_label": "Data orchestration",
+      "billing_model": "Dual-meter workspace billing (Actions + Data Credits, unlimited seats)",
+      "published_entry_label": "$185/mo",
+      "audited_10k_label": "$706/mo est.",
+      "watch_out": "Actions and Data Credits scale separately, so multi-step waterfalls burn both meters quickly.",
+      "official_pricing_url": "https://www.clay.com/pricing",
+      "cron_checkable": 1,
+      "verified_at": "2026-11-19",
+      "plans": [
+        {
+          "plan_name": "Free",
+          "monthly_usd": 0,
+          "annual_monthly_usd": 0,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "100 Data Credits · 500 Actions / mo",
+          "key_limit": "200 rows per table; basic waterfalls"
+        },
+        {
+          "plan_name": "Launch",
+          "monthly_usd": 185,
+          "annual_monthly_usd": 167,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "2,500 Data Credits · 15,000 Actions / mo",
+          "key_limit": "No CRM auto-sync or HTTP webhooks"
+        },
+        {
+          "plan_name": "Growth",
+          "monthly_usd": 495,
+          "annual_monthly_usd": 446,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "6,000 Data Credits · 40,000 Actions / mo",
+          "key_limit": "CRM sync, HTTP API, webhooks, web intent"
+        },
+        {
+          "plan_name": "Enterprise",
+          "monthly_usd": null,
+          "annual_monthly_usd": null,
+          "annual_invoice_usd": null,
+          "billing_unit": "annual quote",
+          "included_credits_label": "100,000+ Data Credits · 200,000+ Actions",
+          "key_limit": "Annual contract; SSO and dedicated support"
+        }
+      ]
+    },
+    {
+      "slug": "heyreach",
+      "name": "HeyReach",
+      "category": "linkedin",
+      "role_label": "LinkedIn outreach automation",
+      "billing_model": "Per LinkedIn sender account (or flat Agency packs)",
+      "published_entry_label": "$79/sender/mo",
+      "audited_10k_label": "$158/mo (2 senders)",
+      "watch_out": "Dedicated residential proxy is included, but active outreach typically requires a separate LinkedIn Sales Navigator subscription per sender.",
+      "official_pricing_url": "https://www.heyreach.io/pricing",
+      "cron_checkable": 1,
+      "verified_at": "2026-11-19",
+      "plans": [
+        {
+          "plan_name": "Growth (1–9 senders)",
+          "monthly_usd": 79,
+          "annual_monthly_usd": 63.25,
+          "annual_invoice_usd": 759,
+          "billing_unit": "sender",
+          "included_credits_label": "Unlimited campaigns + dedicated proxy",
+          "key_limit": "Annual saves 20%; Sales Navigator extra"
+        },
+        {
+          "plan_name": "Growth (10+ senders)",
+          "monthly_usd": 59,
+          "annual_monthly_usd": 47.2,
+          "annual_invoice_usd": null,
+          "billing_unit": "sender",
+          "included_credits_label": "Volume sender discount + workspaces",
+          "key_limit": "Minimum 10 connected accounts"
+        },
+        {
+          "plan_name": "Agency 25",
+          "monthly_usd": 999,
+          "annual_monthly_usd": 799.25,
+          "annual_invoice_usd": 9591,
+          "billing_unit": "25-sender pack",
+          "included_credits_label": "Up to 25 pooled LinkedIn senders",
+          "key_limit": "$39.96/sender monthly"
+        },
+        {
+          "plan_name": "Agency 50",
+          "monthly_usd": 1399,
+          "annual_monthly_usd": 1120,
+          "annual_invoice_usd": null,
+          "billing_unit": "50-sender pack",
+          "included_credits_label": "Up to 50 pooled LinkedIn senders",
+          "key_limit": "$27.98/sender monthly"
+        }
+      ]
+    },
+    {
+      "slug": "instantly",
+      "name": "Instantly",
+      "category": "cold-email",
+      "role_label": "Cold email sequencer",
+      "billing_model": "Modular subscriptions (Outreach + Lead Credits billed separately)",
+      "published_entry_label": "$47/mo",
+      "audited_10k_label": "$107/mo",
+      "watch_out": "Outreach sending and Lead Credits are separate subscriptions, and secondary domains/mailboxes are extra overhead.",
+      "official_pricing_url": "https://instantly.ai/pricing",
+      "cron_checkable": 1,
+      "verified_at": "2026-11-19",
+      "plans": [
+        {
+          "plan_name": "Outreach Growth",
+          "monthly_usd": 47,
+          "annual_monthly_usd": 37.6,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "1,000 contacts · 5,000 sends / mo",
+          "key_limit": "Low 1,000-contact standing cap"
+        },
+        {
+          "plan_name": "Outreach Hypergrowth",
+          "monthly_usd": 107,
+          "annual_monthly_usd": 85.6,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "25,000 contacts · 125,000 sends / mo",
+          "key_limit": "Leads database & CRM billed separately"
+        },
+        {
+          "plan_name": "Outreach Light Speed",
+          "monthly_usd": 358,
+          "annual_monthly_usd": 286.3,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "100,000 contacts · 500,000 sends / mo",
+          "key_limit": "Dedicated IP sharding systems"
+        },
+        {
+          "plan_name": "VIP Starter Bundle",
+          "monthly_usd": 94,
+          "annual_monthly_usd": 75.2,
+          "annual_invoice_usd": null,
+          "billing_unit": "bundle",
+          "included_credits_label": "5,000 sends + 1,500 lead credits / mo",
+          "key_limit": "Combines Growth Outreach + Growth Credits"
+        }
+      ]
+    },
+    {
+      "slug": "lemlist",
+      "name": "lemlist",
+      "category": "cold-email",
+      "role_label": "Multichannel sequencer",
+      "billing_model": "Workspace volume (Email) OR per-seat (Multichannel)",
+      "published_entry_label": "$69/mo",
+      "audited_10k_label": "$69–$327/mo",
+      "watch_out": "Email-only allows unlimited users at $69/mo, but LinkedIn and calling switch to $109/seat/mo per rep.",
+      "official_pricing_url": "https://www.lemlist.com/pricing",
+      "cron_checkable": 1,
+      "verified_at": "2026-11-19",
+      "plans": [
+        {
+          "plan_name": "Email (50k sends)",
+          "monthly_usd": 69,
+          "annual_monthly_usd": 55,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "Unlimited users · 50,000 sends / mo",
+          "key_limit": "Email only; no LinkedIn automation"
+        },
+        {
+          "plan_name": "Multichannel",
+          "monthly_usd": 109,
+          "annual_monthly_usd": 87,
+          "annual_invoice_usd": null,
+          "billing_unit": "seat",
+          "included_credits_label": "Email + LinkedIn + VoIP + SMS",
+          "key_limit": "Per-user seat pricing multiplies for teams"
+        },
+        {
+          "plan_name": "Enrichment Add-on",
+          "monthly_usd": 20,
+          "annual_monthly_usd": 16,
+          "annual_invoice_usd": null,
+          "billing_unit": "add-on",
+          "included_credits_label": "2,000 credits / mo (~400 emails or 100 phones)",
+          "key_limit": "5 credits/email, 20 credits/phone"
+        }
+      ]
+    },
+    {
+      "slug": "lusha",
+      "name": "Lusha",
+      "category": "data",
+      "role_label": "Contact & phone database",
+      "billing_model": "Credit-slider subscriptions + seat caps",
+      "published_entry_label": "$37.45/mo",
+      "audited_10k_label": "Quote required",
+      "watch_out": "Phone numbers consume 5 credits each and entry tiers cap sharply below high-volume outbound needs.",
+      "official_pricing_url": "https://www.lusha.com/pricing/",
+      "cron_checkable": 0,
+      "verified_at": "2026-11-19",
+      "plans": [
+        {
+          "plan_name": "Free",
+          "monthly_usd": 0,
+          "annual_monthly_usd": 0,
+          "annual_invoice_usd": null,
+          "billing_unit": "1 seat",
+          "included_credits_label": "40 credits / mo",
+          "key_limit": "No bulk scaling"
+        },
+        {
+          "plan_name": "Starter",
+          "monthly_usd": 49.9,
+          "annual_monthly_usd": 37.45,
+          "annual_invoice_usd": null,
+          "billing_unit": "1 seat",
+          "included_credits_label": "400 credits / mo (4,800/yr)",
+          "key_limit": "Only 80 phone reveals/mo at 5 credits each"
+        },
+        {
+          "plan_name": "Pro",
+          "monthly_usd": 69.9,
+          "annual_monthly_usd": 52.45,
+          "annual_invoice_usd": null,
+          "billing_unit": "2 seats",
+          "included_credits_label": "600 credits / mo equivalent",
+          "key_limit": "Confirm the price for additional credits or seats"
+        },
+        {
+          "plan_name": "Premium",
+          "monthly_usd": 399.9,
+          "annual_monthly_usd": 299.95,
+          "annual_invoice_usd": null,
+          "billing_unit": "5 seats",
+          "included_credits_label": "3,400 credits / mo equivalent",
+          "key_limit": "Confirm the price for additional credits or seats"
+        }
+      ]
+    },
+    {
+      "slug": "millionverifier",
+      "name": "MillionVerifier",
+      "category": "verification",
+      "role_label": "Bulk email verification",
+      "billing_model": "One-time pay-as-you-go credit blocks (never expire)",
+      "published_entry_label": "$39 / 10k",
+      "audited_10k_label": "$39 / 10k",
+      "watch_out": "Minimal inbox-placement extras compared to ZeroBounce, but credits never expire and unknowns are refunded.",
+      "official_pricing_url": "https://www.millionverifier.com/",
+      "cron_checkable": 1,
+      "verified_at": "2026-11-19",
+      "plans": [
+        {
+          "plan_name": "Free Trial",
+          "monthly_usd": 0,
+          "annual_monthly_usd": 0,
+          "annual_invoice_usd": null,
+          "billing_unit": "one-time",
+          "included_credits_label": "100 credits",
+          "key_limit": "Testing only"
+        },
+        {
+          "plan_name": "10k Credits",
+          "monthly_usd": 39,
+          "annual_monthly_usd": 39,
+          "annual_invoice_usd": null,
+          "billing_unit": "PAYG block",
+          "included_credits_label": "10,000 verifications ($0.0039/ea)",
+          "key_limit": "Credits never expire; API included"
+        },
+        {
+          "plan_name": "25k Credits",
+          "monthly_usd": 59,
+          "annual_monthly_usd": 59,
+          "annual_invoice_usd": null,
+          "billing_unit": "PAYG block",
+          "included_credits_label": "25,000 verifications ($0.0024/ea)",
+          "key_limit": "Credits never expire"
+        },
+        {
+          "plan_name": "50k Credits",
+          "monthly_usd": 89,
+          "annual_monthly_usd": 89,
+          "annual_invoice_usd": null,
+          "billing_unit": "PAYG block",
+          "included_credits_label": "50,000 verifications ($0.0018/ea)",
+          "key_limit": "Credits never expire"
+        }
+      ]
+    },
+    {
+      "slug": "neverbounce",
+      "name": "NeverBounce",
+      "category": "verification",
+      "role_label": "Automated list verification",
+      "billing_model": "Pay-as-you-go blocks (12-mo expiry) or Growth monthly auto-sync",
+      "published_entry_label": "$49/mo (10k)",
+      "audited_10k_label": "$49–$50 / 10k",
+      "watch_out": "Pay-as-you-go credits expire after 12 months; Growth auto-sync bills monthly even in quiet sending months.",
+      "official_pricing_url": "https://www.neverbounce.com/pricing",
+      "cron_checkable": 1,
+      "verified_at": "2026-11-19",
+      "plans": [
+        {
+          "plan_name": "Pay-As-You-Go (10k)",
+          "monthly_usd": 50,
+          "annual_monthly_usd": 50,
+          "annual_invoice_usd": null,
+          "billing_unit": "PAYG block",
+          "included_credits_label": "10,000 verifications ($0.005/ea)",
+          "key_limit": "Credits expire after 12 months"
+        },
+        {
+          "plan_name": "Growth (Auto-Sync)",
+          "monthly_usd": 49,
+          "annual_monthly_usd": 49,
+          "annual_invoice_usd": null,
+          "billing_unit": "subscription",
+          "included_credits_label": "Up to 10,000 unique emails / mo",
+          "key_limit": "Automated CRM sync; duplicates free"
+        },
+        {
+          "plan_name": "Enterprise",
+          "monthly_usd": null,
+          "annual_monthly_usd": null,
+          "annual_invoice_usd": null,
+          "billing_unit": "custom",
+          "included_credits_label": "250,000+ emails / mo",
+          "key_limit": "Dedicated account manager"
+        }
+      ]
+    },
+    {
+      "slug": "prospeo",
+      "name": "Prospeo",
+      "category": "data",
+      "role_label": "Email & mobile finder",
+      "billing_model": "Per user + monthly credit buckets (25% off annual)",
+      "published_entry_label": "$37/mo",
+      "audited_10k_label": "About $187/mo (one Pro seat, annual)",
+      "watch_out": "The 10k benchmark uses one Pro seat. Multi-seat teams can pool credits, and phone reveals use more credits.",
+      "official_pricing_url": "https://prospeo.io/pricing",
+      "cron_checkable": 0,
+      "verified_at": "2026-11-19",
+      "plans": [
+        {
+          "plan_name": "Free",
+          "monthly_usd": 0,
+          "annual_monthly_usd": 0,
+          "annual_invoice_usd": null,
+          "billing_unit": "user",
+          "included_credits_label": "75 emails / mo",
+          "key_limit": "Light evaluation only"
+        },
+        {
+          "plan_name": "Starter",
+          "monthly_usd": 49,
+          "annual_monthly_usd": 37,
+          "annual_invoice_usd": null,
+          "billing_unit": "user",
+          "included_credits_label": "2,000 credits / mo",
+          "key_limit": "Single-rep moderate volume"
+        },
+        {
+          "plan_name": "Growth",
+          "monthly_usd": 99,
+          "annual_monthly_usd": 74,
+          "annual_invoice_usd": null,
+          "billing_unit": "user",
+          "included_credits_label": "5,000 credits / mo",
+          "key_limit": "Mid-volume prospecting"
+        },
+        {
+          "plan_name": "Pro",
+          "monthly_usd": 249,
+          "annual_monthly_usd": 187,
+          "annual_invoice_usd": null,
+          "billing_unit": "user",
+          "included_credits_label": "15,000 credits / mo",
+          "key_limit": "Covers 10k-lead workflows (~$0.012/email annual)"
+        }
+      ]
+    },
+    {
+      "slug": "rb2b",
+      "name": "RB2B",
+      "category": "linkedin",
+      "role_label": "US website visitor ID",
+      "billing_model": "Monthly Resolution credits (US person-level ID)",
+      "published_entry_label": "$0 / $79/mo",
+      "audited_10k_label": "$149+/mo",
+      "watch_out": "Starter ($79/mo) sends LinkedIn URLs to Slack only—business emails and CRM/Clay integrations require Pro ($149/mo+).",
+      "official_pricing_url": "https://www.rb2b.com/pricing",
+      "cron_checkable": 1,
+      "verified_at": "2026-11-19",
+      "plans": [
+        {
+          "plan_name": "Free",
+          "monthly_usd": 0,
+          "annual_monthly_usd": 0,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "150 company-level resolutions / mo",
+          "key_limit": "No person ID, no emails, Slack only"
+        },
+        {
+          "plan_name": "Starter",
+          "monthly_usd": 79,
+          "annual_monthly_usd": 79,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "300 US person resolutions / mo",
+          "key_limit": "LinkedIn URLs to Slack/Teams only; no emails or CRM"
+        },
+        {
+          "plan_name": "Pro",
+          "monthly_usd": 149,
+          "annual_monthly_usd": 149,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "600–2,500+ resolutions / mo",
+          "key_limit": "Adds business emails & CRM/Clay integrations"
+        },
+        {
+          "plan_name": "Pro+",
+          "monthly_usd": 199,
+          "annual_monthly_usd": 199,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "600+ Premium Resolutions / mo",
+          "key_limit": "Waterfall higher match rates; extra domains +$99/mo"
+        }
+      ]
+    },
+    {
+      "slug": "smartlead",
+      "name": "Smartlead",
+      "category": "cold-email",
+      "role_label": "Cold email sequencer",
+      "billing_model": "Flat workspace tiers (unlimited seats & sender accounts)",
+      "published_entry_label": "$39/mo",
+      "audited_10k_label": "$94/mo",
+      "watch_out": "Unlimited sender accounts are included, but secondary domains and Google/Microsoft mailboxes are billed separately.",
+      "official_pricing_url": "https://www.smartlead.ai/pricing",
+      "cron_checkable": 1,
+      "verified_at": "2026-11-19",
+      "plans": [
+        {
+          "plan_name": "Base",
+          "monthly_usd": 39,
+          "annual_monthly_usd": 32,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "2,000 contacts · 6,000 sends / mo",
+          "key_limit": "No API/webhooks; prospect emails +$59/mo"
+        },
+        {
+          "plan_name": "Pro",
+          "monthly_usd": 94,
+          "annual_monthly_usd": 78,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "30,000 contacts · 90,000 sends / mo",
+          "key_limit": "Includes API/webhooks; mailboxes billed externally"
+        },
+        {
+          "plan_name": "Unlimited Smart",
+          "monthly_usd": 174,
+          "annual_monthly_usd": 144,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "Unlimited contacts · 150,000 sends / mo",
+          "key_limit": "Includes 50,000 verified prospect emails free"
+        },
+        {
+          "plan_name": "Unlimited Prime",
+          "monthly_usd": 379,
+          "annual_monthly_usd": 315,
+          "annual_invoice_usd": null,
+          "billing_unit": "workspace",
+          "included_credits_label": "Unlimited contacts · 500,000 sends / mo",
+          "key_limit": "Includes 170,000 verified emails + 3 SmartServers"
+        }
+      ]
+    },
+    {
+      "slug": "zerobounce",
+      "name": "ZeroBounce",
+      "category": "verification",
+      "role_label": "Email validation & deliverability",
+      "billing_model": "Pay-as-you-go blocks OR ZeroBounce ONE monthly subscription",
+      "published_entry_label": "$39 / 2k",
+      "audited_10k_label": "$99–$129 / 10k",
+      "watch_out": "PAYG 10k blocks run ~$129 (3.3x MillionVerifier); ZeroBounce ONE ($99/mo) is only cheaper if you use the bundled suite.",
+      "official_pricing_url": "https://www.zerobounce.net/pricing",
+      "cron_checkable": 1,
+      "verified_at": "2026-11-19",
+      "plans": [
+        {
+          "plan_name": "PAYG Minimum (2k)",
+          "monthly_usd": 39,
+          "annual_monthly_usd": 39,
+          "annual_invoice_usd": null,
+          "billing_unit": "PAYG block",
+          "included_credits_label": "2,000 validation credits",
+          "key_limit": "$0.0195/email at minimum tier"
+        },
+        {
+          "plan_name": "PAYG 10k Pack",
+          "monthly_usd": 129,
+          "annual_monthly_usd": 129,
+          "annual_invoice_usd": null,
+          "billing_unit": "PAYG block",
+          "included_credits_label": "10,000 validation credits",
+          "key_limit": "Roughly 3.3x MillionVerifier PAYG"
+        },
+        {
+          "plan_name": "ZeroBounce ONE",
+          "monthly_usd": 99,
+          "annual_monthly_usd": 79,
+          "annual_invoice_usd": null,
+          "billing_unit": "subscription",
+          "included_credits_label": "10k validations + 10k finder + 100 inbox tests",
+          "key_limit": "Unused credits roll over monthly"
+        }
+      ]
+    },
+    {
+      "slug": "zoominfo",
+      "name": "ZoomInfo",
+      "category": "data",
+      "role_label": "Enterprise sales intelligence",
+      "billing_model": "Opaque custom annual contract (sales-gated)",
+      "published_entry_label": "Quote (~$15k/yr)",
+      "audited_10k_label": "$1,250+/mo",
+      "watch_out": "No public list prices, mandatory 12-month upfront annual lock-in, and strict auto-renewal notice clauses.",
+      "official_pricing_url": "https://www.zoominfo.com/pricing",
+      "cron_checkable": 0,
+      "verified_at": "2026-11-19",
+      "plans": [
+        {
+          "plan_name": "SalesOS Entry (Estimated)",
+          "monthly_usd": null,
+          "annual_monthly_usd": 1250,
+          "annual_invoice_usd": null,
+          "billing_unit": "annual contract",
+          "included_credits_label": "Annual bulk credit pool (quoted)",
+          "key_limit": "12-month upfront commitment (~$15k/yr min)"
+        },
+        {
+          "plan_name": "SalesOS Advanced / Elite",
+          "monthly_usd": null,
+          "annual_monthly_usd": 2100,
+          "annual_invoice_usd": null,
+          "billing_unit": "annual contract",
+          "included_credits_label": "Higher seat & intent bundles",
+          "key_limit": "Custom multi-module quote + renewal clauses"
+        }
+      ]
+    }
+  ]
+}
